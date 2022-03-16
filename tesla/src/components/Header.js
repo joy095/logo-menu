@@ -18,9 +18,13 @@ function Header() {
         <img src="/images/logo.svg" alt="" />
       </a>
       <Menu>
-        {cars && cars.map((car, index)=>(
+        {/* {cars && cars.map((car, index)=>(
           <a key={index} href="#">{car}</a>
-        ))}
+        ))} */}
+        <a href='#'>Model S</a>
+        <a href='#'>Model 3</a>
+        <a href='#'>Model X</a>
+        <a href='#'>Model Y</a>
       </Menu>
       <RightMenu>
         <a href="#">Shop</a>
@@ -62,7 +66,8 @@ const Menu = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
+  flex-direction: row;
+  z-index: 10;
 
   a {
     font-weight: 600;
