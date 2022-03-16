@@ -1,0 +1,112 @@
+.Right-Card {
+  margin-top: 50px;
+  position: absolute;
+  width: 25vw;
+  height: fit-content;
+  top: 0;
+  padding-top: 10px;
+  background-color: #f0f2f5;
+  right: 0px;
+}
+
+#empty {
+  height: 5px;
+  background-color: #f0f2f5;
+}
+
+#first_container {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#first_card {
+  height: 40px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+#para {
+  height: 40px;
+  width: 120px;
+  padding: 8px 0 8px 20px;
+  align-items: center;
+}
+
+#empty2 {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+}
+
+#camera,
+#small_search,
+#dot {
+  margin: 8px 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+/* :hover .contact_hover {
+  background-color: #c4c4c4;
+} */
+
+:hover.container {
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .Right-Card {
+    visibility: hidden;
+  }
+}
+
+#left {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.container {
+  position: static;
+  margin-left: 1vw;
+  border-radius: 10px 0 0 10px;
+  width: 24vw;
+  height: 40px;
+}
+
+.all-containers {
+  margin-left: 6px;
+  width: 40px;
+  height: 40px;
+}
+.logo-names_right {
+  margin-top: 3.5px;
+  height: 33px;
+  width: 33px;
+  align-items: center;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+#online_logo {
+  height: 6.4px;
+  width: 6.4px;
+  position: absolute;
+  background-color: #31a24c;
+  margin-top: 28px;
+  margin-left: 26.5px;
+  border-radius: 3.2px;
+}
+
+.names {
+  margin-left: 5px;
+}
+
+.p-names {
+  margin: 10px 0;
+}
